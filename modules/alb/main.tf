@@ -51,5 +51,5 @@ module "alb" {
   stickiness                              = var.stickiness
   lifecycle_rule_enabled                  = var.lifecycle_rule_enabled
 
-  context = module.this.context 
+  context = module.this.context n
 }
